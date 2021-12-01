@@ -2,9 +2,20 @@
 .bg-container{
   display: flex;
   justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+.card{
+  display: flex;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
   padding: 30px;
+  border-color: #12022f;
+  border-radius: 5%;
+  
 }
 .table {
   font-family: arial, sans-serif;
@@ -57,5 +68,5 @@
 .app-container {
  
   background-image: linear-gradient(to right,#ffffff, #ffeeee, #ffc0bb);
-  height: 100vh;
+  height: 100%;
 }

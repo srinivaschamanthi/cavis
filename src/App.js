@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import TriviaGame from "./TriviaGame";
+import Cavis from "./Cavis";
 import Header from "./Header";
 
 
@@ -9,7 +9,7 @@ export default class App extends Component {
     return (
       <div className="app-container">
         <Header/>
-        <TriviaGame/>
+        <Cavis/>
       </div>
     );
   }
